@@ -1,0 +1,112 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  p {
+    margin-bottom: 20px;
+  }
+
+
+.columna {
+    width:33%;
+    float:left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+    font-family: 'Major Mono Display', monospace;
+   
+  }
+  
+  @media (max-width: 500px) {
+    
+    .columna {
+      width:auto;
+      float:none;
+    }
+    
+  }
+  
+.columna2{
+
+width:50%;
+float: left;
+padding-top: 75px;
+text-align: center;
+font-family: 'Major Mono Display', monospace;
+font-size: 20px;
+
+  }
+
+.columna3{
+
+width: 33%;
+float: left;
+padding-top: 45px;
+padding-bottom: 45px;
+text-align: center;
+font-family: 'Major Mono Display', monospace;
+}
+
+
+header {
+  background: rgba(0,0,0,1);
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+  font-family: 'Major Mono Display', monospace;
+  color: white;
+  
+}
+
+
+nav {
+  float: left;
+}
+
+nav ul {
+  list-style: none;
+  overflow: hidden; /* Limpiamos errores de float */
+}
+
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.footer{
+  padding-top: 30px;
+  padding-bottom: 30px;
+float: left;
+text-align: center;
+font-size: 24px;
+background: rgba(0,0,0,0.2);
+width: 100%;
+font-family: 'Major Mono Display', monospace;
+
+}
+
+
+.minombre{
+font-size: 40px;
+font-style: initial;
+color: brown;
+
+
+}
+
+.portafolio{
+padding-top: 30px;
+padding-bottom: 30px;
+}
+
+.titulo{
+font-size: 250%;
+color: orangered;
+font-style: initial;
+
+}
+
+
